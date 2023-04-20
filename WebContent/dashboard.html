@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>Admin dashboard</title>
+<style>
+body {
+	margin: 0;
+	padding: 10;
+}
+
+.wrapper {
+	margin-top: 30px;
+}
+
+.chart-wrapper1 {
+	margin-left: 110px;
+	width: 40%;
+	float: left;
+	padding-right: 10px;
+}
+
+#mostPopCat {
+margin-left: 8px;
+}
+
+.chart-wrapper2 {
+	width: 40%;
+	margin-left: 50px;
+	float: left;
+	margin-top: 10px;
+}
+</style>
+<script
+	src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="./js/chart.min.js"></script>
+<script type="text/javascript" src="./js/chart-script.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="chart-wrapper1">
+			<canvas id="mostVisited"></canvas>
+			</br>
+			<canvas id="mostPopCat"></canvas>
+		</div>
+		<div class="chart-wrapper2">
+			<canvas id="mostCommented"></canvas>
+		</div>
+	</div>
+</body>
+</html>
