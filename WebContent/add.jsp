@@ -19,7 +19,7 @@
 			class="input-text" type="text" name="password" value="" required>
 		<br> <br>
 		<div class="g-recaptcha"
-			data-sitekey="6LcTTfwaAAAAAIbiBisqxRp6REty3I3MOWsTDQZh"></div>
+			data-sitekey="XXX"></div>
 		<br> <input class="input-button" type="submit" value="Sign up">
 	</form>
 	<input class="input-button" type="submit" value="Cancel"
